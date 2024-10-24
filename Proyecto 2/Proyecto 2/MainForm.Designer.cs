@@ -36,12 +36,27 @@ namespace Proyecto_2
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.label1 = new System.Windows.Forms.Label();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.Location = new System.Drawing.Point(12, 9);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(151, 23);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "Yael Lopez Garcia";
 			// 
 			// MainForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "Proyecto 2";
+			this.ClientSize = new System.Drawing.Size(278, 244);
+			this.Controls.Add(this.label1);
 			this.Name = "MainForm";
+			this.Text = "Proyecto 2";
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label label1;
 	}
 }
